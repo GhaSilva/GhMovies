@@ -1,0 +1,36 @@
+header {
+    background-color: var(--color-primary);
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.ghmovie-nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+
+}
+
+.ghmovie-nav-content h1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.ghmovie-contact-container{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    
+}
+
+.ghmovies-contact-link {
+    color: white;
+    text-decoration: none;
+    margin: 0 0 0 10px;
+    text-align: center;
+    font-size: 12px;
+    
+}
