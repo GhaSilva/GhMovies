@@ -27,9 +27,13 @@ function Listing() {
       });
   }, [pageNumber]);
 
+  const hanglePageChance = (newPageNumber:number) => {
+    setPageNumber(newPageNumber)
+  }
+
   return (
     <>
-      <Pagination />
+      <Pagination onChange={hanglePageChance} page={page} />
       <div className="container">
         <div className="row">
 
